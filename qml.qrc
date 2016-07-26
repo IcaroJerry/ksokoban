@@ -2,5 +2,6 @@
     <qresource prefix="/">
         <file>qml/main.qml</file>
         <file>qml/Piece.qml</file>
+        <file>qml/Scenario.qml</file>
     </qresource>
 </RCC>
