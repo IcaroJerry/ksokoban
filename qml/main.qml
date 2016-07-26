@@ -1,6 +1,7 @@
 import QtQuick 2.6
 import QtQuick.Controls 1.4
 import QtQuick.Window 2.2
+import "../javascript/level-list.js" as LevelList
 
 ApplicationWindow {
     id: window
@@ -30,7 +31,6 @@ ApplicationWindow {
     }
 
     Scenario {
-        x_size: 8
-        y_size: 5
+        level: LevelList.getLevel(1)
     }
 }
