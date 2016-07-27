@@ -6,9 +6,7 @@ import QtQuick.Window 2.2
 Rectangle {
     property var level: []
 
-    id: scenario
-    visible: true
-    anchors.top: mainMenu.bottom
+    visible: true    
     width: parent.width
     height: parent.height
     color: '#000000'

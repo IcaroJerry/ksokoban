@@ -22,6 +22,8 @@ ApplicationWindow {
     }
 
     Scenario {
+        id: scenario
         level: LevelList.getLevel(level_number)
+        anchors.top: mainMenu.bottom
     }
 }
