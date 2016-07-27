@@ -3,14 +3,14 @@ import QtQuick 2.6
 Rectangle {
     property int value: 0
     property int size: 100
-    property string levelName: 'classic'
+    property string levelTheme: 'classic'
 
     width : size
     height: size
     color: '#676767'
 
     function getPiece(number){
-        var path = '../img/' + levelName + '/'
+        var path = '../img/' + levelTheme + '/'
             switch(number){
                 case 4: path += 'man.png'; break;
                 case 5: path += 'saveman.png'; break;

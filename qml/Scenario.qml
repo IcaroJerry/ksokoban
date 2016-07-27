@@ -5,11 +5,13 @@ import QtQuick.Window 2.2
 
 Rectangle {
     property var level: []
+    property var theme: 'classic'
 
-    visible: true    
+    visible: true
     width: parent.width
     height: parent.height
-    color: '#000000'
+
+    Image { source: '../img/' + theme +'/starfield.png'; fillMode: Image.Tile; anchors.fill: parent;}
 
     function getLevelAsArray(level){
         var arrayLevel = []
@@ -41,7 +43,7 @@ Rectangle {
             Piece{
                 size: scenario_grid.piece_size
                 value: getLevelAsArray(level)[index]
-                levelName: 'Sasquatch'
+                levelTheme: theme
             }
         }
     }
