@@ -11,7 +11,16 @@ Rectangle {
     anchors.top: mainMenu.bottom
     width: parent.width
     height: parent.height
+    color: '#000000'
 
+    function getLevelAsArray(level){
+        var arrayLevel = []
+
+        for(var i = 0; i< level.length; i++){
+            arrayLevel = arrayLevel.concat(level[i])
+        }
+        return arrayLevel;
+    }
 
     Grid {
         id: scenario_grid
@@ -19,7 +28,7 @@ Rectangle {
         y: 10
         rows: level.length
         columns: level[0].length
-        spacing: 1
+        spacing: 0
         anchors.centerIn: scenario
 
         property int piece_size: {            
@@ -29,10 +38,12 @@ Rectangle {
             return line_size < column_size ? line_size: column_size
         }
 
-        Repeater {            
+        Repeater {
             model: parent.rows * parent.columns
             Piece{
                 size: scenario_grid.piece_size
+                value: getLevelAsArray(level)[index]
+                levelName: 'Sasquatch'
             }
         }
     }

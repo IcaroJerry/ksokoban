@@ -4,8 +4,10 @@ import QtQuick.Window 2.2
 import "../javascript/level-list.js" as LevelList
 
 ApplicationWindow {
+    property int level_number: 1;
+
     id: window
-    color:'white'
+    color:'black'
     visible: true
     width: 800
     height: 800
@@ -15,22 +17,11 @@ ApplicationWindow {
             setY(Screen.height / 2 - height / 2);
     }
 
-    menuBar: MenuBar{
+    menuBar: MainMenu {
         id: mainMenu
-
-        Menu {
-            visible: true
-            title: 'File'
-
-             MenuItem {
-                text: 'Close'
-                shortcut: 'Alt+F4'
-                onTriggered: window.close()
-             }
-        }
     }
 
     Scenario {
-        level: LevelList.getLevel(1)
+        level: LevelList.getLevel(level_number)
     }
 }
