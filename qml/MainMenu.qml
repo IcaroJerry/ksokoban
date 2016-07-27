@@ -21,31 +21,40 @@ MenuBar{
         title: 'Levels'
         Menu {
             visible: true
-            title: 'Sasquatch'
-            
+            title: 'Sample'
+
             MenuItem {
                 text: 'Level 1'
                 onTriggered: level_number = 1
             }
+        }
+        Menu {
+            visible: true
+            title: 'Sasquatch'
             
             MenuItem {
-                text: 'Level 2'
+                text: 'Level 1'
                 onTriggered: level_number = 2
             }
             
             MenuItem {
-                text: 'Level 3'
+                text: 'Level 2'
                 onTriggered: level_number = 3
             }
             
             MenuItem {
-                text: 'Level 4'
+                text: 'Level 3'
                 onTriggered: level_number = 4
             }
             
             MenuItem {
-                text: 'Level 5'
+                text: 'Level 4'
                 onTriggered: level_number = 5
+            }
+            
+            MenuItem {
+                text: 'Level 5'
+                onTriggered: level_number = 6
             }
         }
     }

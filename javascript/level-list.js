@@ -67,8 +67,17 @@ var levels = [
 ]
 
 function getLevel(number){
-    number = number < 1 ? 1 : number-1
-    var level = MatrixUtils.copyMatrix(this.levels[number]);
+    if(number < 1){
+        number = 1
+    }
+    
+    else 
+    
+    if(number > levels.length-1){
+        number = levels.length-1
+    }
+        
+    var level = MatrixUtils.copyMatrix(this.levels[number-1]);
     return level;
 }
 

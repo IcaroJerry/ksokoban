@@ -8,15 +8,7 @@ import "../javascript/level-list.js" as LevelList
 ApplicationWindow {
     property int level_number: 1;
 
-    style: ApplicationWindowStyle {
-        background: Image {
-            fillMode: Image.Tile
-            source: "../img/Sasquatch/starfield.png"
-        }
-    }
-
     id: window
-
     visible: true
     width: 800
     height: 800
