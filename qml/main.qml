@@ -6,7 +6,7 @@ import QtQuick.Controls.Styles 1.4
 import "../javascript/level-list.js" as LevelList
 
 ApplicationWindow {
-    property int level_number: 1;
+    property int level_number: 2;
 
     id: window
     visible: true

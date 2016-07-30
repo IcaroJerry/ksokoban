@@ -30,14 +30,24 @@ MenuBar{
             visible: true
             title: 'Level Collection'
 
+            ExclusiveGroup{
+                id:levelGroup
+            }
+
             MenuItem {
                 text: 'Sample'
                 onTriggered: level_number = 1
+                checkable: true
+                checked: false
+                exclusiveGroup: levelGroup
             }
 
             MenuItem {
                 text: 'Sasquatch'
                 onTriggered: level_number = 2
+                checkable: true
+                checked: true
+                exclusiveGroup:levelGroup
             }
        }
 
