@@ -11,7 +11,7 @@ Rectangle {
     width: parent.width
     height: parent.height
 
-    Image { source: '../img/' + theme +'/starfield.png'; fillMode: Image.Tile; anchors.fill: parent;}
+    Image { source: '../themes/' + theme +'/starfield.png'; fillMode: Image.Tile; anchors.fill: parent;}
 
     function getLevelAsArray(level){
         var arrayLevel = []

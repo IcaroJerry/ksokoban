@@ -7,10 +7,10 @@ Rectangle {
 
     width : size
     height: size
-    color: '#676767'
+    color: '#00000000'
 
     function getPiece(number){
-        var path = '../img/' + levelTheme + '/'
+        var path = '../themes/' + levelTheme + '/'
             switch(number){
                 case 4: path += 'man.png'; break;
                 case 5: path += 'saveman.png'; break;
