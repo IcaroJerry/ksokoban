@@ -1,0 +1,8 @@
+Peças:
+  - stone (parede/pedra)
+  - player (personagem que empurra as peças)
+  - player-goal (quando o personagem está sobre o goal)
+  - object (peça que é empurrada)
+  - object-goal (quando a peça está sobre o goal)
+  - background (fundo do cenário fora das paredes)
+  - floor (piso - fundo do cenário onde o personagem pode pisar) 

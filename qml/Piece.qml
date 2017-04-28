@@ -18,7 +18,6 @@ Rectangle {
                 case 8: path += 'goal.png'; break;
                 case 9: path += 'treasure.png'; break;
                 case 1: path += 'stone_1.png'; break;
-                case 7: path += 'starfield.png'; break;
                 case 0: path += 'floor.png'; break;
             }
 
