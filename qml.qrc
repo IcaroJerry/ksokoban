@@ -4,5 +4,56 @@
         <file>qml/Piece.qml</file>
         <file>qml/Scenario.qml</file>
         <file>qml/MainMenu.qml</file>
+        <file>javascript/io.js</file>
+        <file>javascript/level-list.js</file>
+        <file>javascript/matrix-utils.js</file>
+        <file>themes/classic/bin2c.c</file>
+        <file>themes/classic/floor_common.inc</file>
+        <file>themes/classic/floor.png</file>
+        <file>themes/classic/goal.png</file>
+        <file>themes/classic/goal.pov</file>
+        <file>themes/classic/halfstone_1.png</file>
+        <file>themes/classic/halfstone_1.pov</file>
+        <file>themes/classic/halfstone_2.png</file>
+        <file>themes/classic/halfstone_2.pov</file>
+        <file>themes/classic/halfstone_3.png</file>
+        <file>themes/classic/halfstone_3.pov</file>
+        <file>themes/classic/halfstone_4.png</file>
+        <file>themes/classic/halfstone_4.pov</file>
+        <file>themes/classic/main_stone.png</file>
+        <file>themes/classic/man_common.inc</file>
+        <file>themes/classic/man.png</file>
+        <file>themes/classic/man.pov</file>
+        <file>themes/classic/object.png</file>
+        <file>themes/classic/object.pov</file>
+        <file>themes/classic/saveman.png</file>
+        <file>themes/classic/saveman.pov</file>
+        <file>themes/classic/starfield.png</file>
+        <file>themes/classic/stone_1.1.png</file>
+        <file>themes/classic/stone_1.png</file>
+        <file>themes/classic/stone_1.pov</file>
+        <file>themes/classic/stone_2.1.png</file>
+        <file>themes/classic/stone_2.png</file>
+        <file>themes/classic/stone_2.pov</file>
+        <file>themes/classic/stone_3.1.png</file>
+        <file>themes/classic/stone_3.png</file>
+        <file>themes/classic/stone_3.pov</file>
+        <file>themes/classic/stone_4.1.png</file>
+        <file>themes/classic/stone_4.png</file>
+        <file>themes/classic/stone_4.pov</file>
+        <file>themes/classic/stone_5.1.png</file>
+        <file>themes/classic/stone_5.png</file>
+        <file>themes/classic/stone_5.pov</file>
+        <file>themes/classic/stone_6.1.png</file>
+        <file>themes/classic/stone_6.png</file>
+        <file>themes/classic/stone_6.pov</file>
+        <file>themes/classic/stone_common.inc</file>
+        <file>themes/classic/treasure.png</file>
+        <file>themes/classic/treasure.pov</file>
+        <file>themes/classic/wall_1.png</file>
+        <file>themes/classic/wall_2.png</file>
+        <file>themes/classic/wall_3.png</file>
+        <file>themes/classic/wall.png</file>
+        <file>themes/classic/wall.xcf</file>
     </qresource>
 </RCC>
