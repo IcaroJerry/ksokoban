@@ -1,4 +1,4 @@
-.import "matrix-utils.js" as MatrixUtils;
+.import "matrix-utils.js" as MatrixUtils
 
 var levels = [
     [
@@ -63,24 +63,17 @@ var levels = [
         [1,0,0,8,8,1,1,1,1,1,7,7,7],
         [1,1,1,1,1,1,1,1,1,7,7,7,7]
     ]
-
 ]
 
-function getLevel(number){
-    if(number < 1){
+function getLevel(number) {
+    if (number < 1)
         number = 1
-    }
-    
-    else 
-    
-    if(number > levels.length-1){
+    else if (number > levels.length-1)
         number = levels.length-1
-    }
-        
-    var level = MatrixUtils.copyMatrix(this.levels[number-1]);
-    return level;
+    var level = MatrixUtils.copyMatrix(this.levels[number-1])
+    return level
 }
 
-function size(){
+function size() {
     return this.Levels.length
 }

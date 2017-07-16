@@ -1,33 +1,29 @@
-import QtQuick 2.6
+import QtQuick 2.8
 import QtQuick.Controls 1.4
 import QtQuick.Window 2.2
-import QtQuick.Controls.Styles 1.4
+
 import FileIO 1.0
 
-import "../javascript/level-list.js" as LevelList
+import "qrc:/javascript/level-list.js" as LevelList
 
 ApplicationWindow {
-    property int level_number: 2;
-
     id: window
     visible: true
-    width: 800
-    height: 800
-    title: qsTr("KSokoban")
+    width: 800; height: width
+    title: qsTr("Welcome to KSokoban")
+
+    property int level_number: 2
 
     Component.onCompleted: {
-            setX(Screen.width / 2 - width / 2);
-            setY(Screen.height / 2 - height / 2);
-            var str = levelList.read();        
-            console.log('str: ', str);
-
-
+        setX(Screen.width / 2 - width / 2)
+        setY(Screen.height / 2 - height / 2)
+        levelList.read()
     }
 
     FileIO {
-            id: levelList
-            source: "levels/default/level.data"
-            onError: console.log(msg)
+        id: levelList
+        source: "qrc:/levels/default/level.data"
+        onError: console.log(msg)
     }
 
     menuBar: MainMenu {
