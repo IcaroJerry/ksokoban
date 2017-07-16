@@ -4,6 +4,7 @@
         <file>qml/Piece.qml</file>
         <file>qml/Scenario.qml</file>
         <file>qml/MainMenu.qml</file>
+        <file>levels/default/level.data</file>
         <file>javascript/io.js</file>
         <file>javascript/level-list.js</file>
         <file>javascript/matrix-utils.js</file>

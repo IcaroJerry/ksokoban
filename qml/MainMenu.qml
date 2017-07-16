@@ -1,7 +1,7 @@
 import QtQuick 2.6
 import QtQuick.Controls 1.4
 
-MenuBar{
+MenuBar {
     id: mainMenu
     
     Menu {
@@ -49,7 +49,7 @@ MenuBar{
                 checked: true
                 exclusiveGroup:levelGroup
             }
-       }
+        }
 
         MenuItem {
             text: 'Undo'
